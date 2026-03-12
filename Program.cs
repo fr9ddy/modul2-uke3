@@ -13,9 +13,9 @@ class Program
         drone3.StartLaps();
         */
 
-        Task t1 = Task.Run(() => drone1.StartLaps());
-        Task t2 = Task.Run(() => drone2.StartLaps());
-        Task t3 = Task.Run(() => drone3.StartLaps());
+        Task t1 = Task.Run(() => drone1.StartLapsAsync());
+        Task t2 = Task.Run(() => drone2.StartLapsAsync());
+        Task t3 = Task.Run(() => drone3.StartLapsAsync());
 
         Task.WaitAll(t1, t2, t3);
         Console.WriteLine($"All drones complete");

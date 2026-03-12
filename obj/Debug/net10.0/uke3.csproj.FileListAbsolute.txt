@@ -1,0 +1,14 @@
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\bin\Debug\net10.0\uke3.exe
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\bin\Debug\net10.0\uke3.deps.json
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\bin\Debug\net10.0\uke3.runtimeconfig.json
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\bin\Debug\net10.0\uke3.dll
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\bin\Debug\net10.0\uke3.pdb
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\obj\Debug\net10.0\uke3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\obj\Debug\net10.0\uke3.AssemblyInfoInputs.cache
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\obj\Debug\net10.0\uke3.AssemblyInfo.cs
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\obj\Debug\net10.0\uke3.csproj.CoreCompileInputs.cache
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\obj\Debug\net10.0\uke3.dll
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\obj\Debug\net10.0\refint\uke3.dll
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\obj\Debug\net10.0\uke3.pdb
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\obj\Debug\net10.0\uke3.genruntimeconfig.cache
+C:\Users\Kodehode\Desktop\kodehode\modul-2\uke3\obj\Debug\net10.0\ref\uke3.dll

@@ -1,7 +1,7 @@
 ﻿
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         Drones drone1 = new("Billy", 5, 100);
         Drones drone2 = new("Robert", 5, 150);
@@ -13,11 +13,17 @@ class Program
         drone3.StartLaps();
         */
 
-        Task t1 = Task.Run(() => drone1.StartLapsAsync());
-        Task t2 = Task.Run(() => drone2.StartLapsAsync());
-        Task t3 = Task.Run(() => drone3.StartLapsAsync());
-
-        Task.WaitAll(t1, t2, t3);
-        Console.WriteLine($"All drones complete");
+        try
+        {
+            await Task.WhenAll(
+                drone1.StartLapsAsync(),
+                drone2.StartLapsAsync(),
+                drone3.StartLapsAsync()
+            );
+            Console.WriteLine("All drones complete");
+        } catch (Exception ex)
+        {
+            Console.WriteLine($"Something went wrong during the race!\nError message:{ex.Message}");
+        }
     }
 }
